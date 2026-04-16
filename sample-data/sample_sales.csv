@@ -1,0 +1,17 @@
+product,region,sales,quantity,date
+Laptop,North,45000,15,2024-01-15
+Phone,South,32000,40,2024-01-16
+Tablet,East,28000,25,2024-01-17
+Laptop,South,51000,17,2024-01-18
+Phone,North,29000,35,2024-01-19
+Monitor,West,18000,20,2024-01-20
+Laptop,East,48000,16,2024-01-21
+Tablet,North,30000,28,2024-01-22
+Phone,West,35000,42,2024-01-23
+Monitor,South,20000,22,2024-01-24
+Laptop,West,52000,18,2024-01-25
+Tablet,South,31000,30,2024-01-26
+Phone,East,33000,38,2024-01-27
+Monitor,North,19000,21,2024-01-28
+Laptop,North,49000,16,2024-01-29
+Tablet,West,29000,27,2024-01-30
