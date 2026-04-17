@@ -11,8 +11,9 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
                 .allowedOrigins(
-                    "*", 
-                    "ai-analytics-dashboard-sigma.vercel.app"
+                    "*",
+                    "http://localhost:3000",
+                    "https://ai-analytics-dashboard-sigma.vercel.app"
                 )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")

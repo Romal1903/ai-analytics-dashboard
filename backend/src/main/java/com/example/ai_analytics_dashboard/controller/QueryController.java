@@ -12,7 +12,7 @@ import java.util.Map;
 @RequestMapping("/api")
 @CrossOrigin(origins = {
     "http://localhost:3000",
-    "https://your-actual-app.vercel.app"
+    "https://ai-analytics-dashboard-sigma.vercel.app"
 })
 public class QueryController {
 
