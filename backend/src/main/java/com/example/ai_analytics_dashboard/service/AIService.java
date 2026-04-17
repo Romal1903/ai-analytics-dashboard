@@ -209,7 +209,7 @@ public class AIService {
 
     private String callGroqAPI(String prompt) throws Exception {
         String url = "https://api.groq.com/openai/v1/chat/completions";
-        System.out.println("🔗 Calling Groq API: " + modelName);
+        System.out.println("Calling Groq API: " + modelName);
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
