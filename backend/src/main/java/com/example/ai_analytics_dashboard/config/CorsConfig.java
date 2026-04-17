@@ -16,7 +16,5 @@ public class CorsConfig implements WebMvcConfigurer {
                 .exposedHeaders("Content-Disposition")
                 .allowCredentials(false)
                 .maxAge(3600);
-        
-        System.out.println("CORS configured for frontend origins");
     }
 }
