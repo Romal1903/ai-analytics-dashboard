@@ -14,7 +14,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/export")
-@CrossOrigin(originPatterns = "*")
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://your-actual-app.vercel.app"
+})
 public class ExportController {
 
     @Autowired
